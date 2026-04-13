@@ -76,7 +76,7 @@ custom = {
 ### 4. Применить конфигурацию
 
 ```bash
-nix run home-manager/master -- switch --flake .#default
+nix run home-manager/master -- switch --flake .#default --impure
 ```
 
 > При первом запуске это займёт несколько минут — Nix скачивает все пакеты.
